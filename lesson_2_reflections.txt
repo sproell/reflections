@@ -2,3 +2,21 @@ What happens when you initialize a repository? Why do you need to do it?
 
 Creates the metadata database that git will use to track revisions.  It is
 the preparatory step for making commits.
+
+
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+
+The working directory contains all files in your project while the staging area
+contains only the changed files you wish group together as a logical change.  
+The repository is essentially a history of changes to the files in your 
+project.  The staging area allows to to create a set of file changes that 
+represent one logical change to your project.
+
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+You can incrementally add files as you're making changes and then commit the files
+as one logical change when ready.  You can add as many or as few changes to a commit
+as you want.
+
