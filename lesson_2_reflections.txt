@@ -42,3 +42,9 @@ The result is a single commit that includes the changes from both branches.  Thi
 single commit resides in the branch that is currently checked out.  The commit
 has two parents as represented in the diagram.
 
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Automatic merging is great when two changes don't conflict with each other.  It is less error
+prone and quicker than having two humans merge the changes.  
+
