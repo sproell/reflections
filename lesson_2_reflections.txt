@@ -28,3 +28,9 @@ Branches are useful when trying out experimental features.  You could try specif
 features in multiple branches and then combine them later to see how they interact.
 Also, your history in master is unaffected by experimental changes in other branches.
 
+
+How do the diagrams help you visualize the branch structure?
+
+Diagrams help visualize which commits will be included within a branch.  They also
+show the various logical changes that you have in progress at any one time.
+
