@@ -29,3 +29,18 @@ When writing code, it is common to have one logical change span across multiple 
 the case when creating documents or spreadsheets with google docs.
 
 
+How can you use the commands git log and git diff to view the history of files?
+
+git log shows the commit history for the repository.  Using the commit IDs for the commits, you
+can explore the file changes included within each commit.
+
+
+How might using version control make you more confident to make changes that could break something?
+
+It is quite easy to go back to a previous version that was working. So you can feel free to make risky
+changes because you know you have the last working version handy.
+
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+Managing changes to my personal coding projects!
