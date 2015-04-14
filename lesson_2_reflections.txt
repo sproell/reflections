@@ -34,3 +34,11 @@ How do the diagrams help you visualize the branch structure?
 Diagrams help visualize which commits will be included within a branch.  They also
 show the various logical changes that you have in progress at any one time.
 
+
+What is the result of merging two branches together? Why do we represent it in the
+diagram the way we do?
+
+The result is a single commit that includes the changes from both branches.  This
+single commit resides in the branch that is currently checked out.  The commit
+has two parents as represented in the diagram.
+
