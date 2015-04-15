@@ -20,3 +20,10 @@ repositories, but they have parent/child relationships.  Changes to cloned repos
 pushed into the parent whereas changes to forked repos cannot be pushed into the original repo.
 Branches are new commit streams within a single repository.  They allow work to progress within
 the repo without affecting the master branch.
+
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+Having a copy of the last known state locally allows the remote to proceed without having
+to merge these changes.  You can see how your changes compare to master as of the time of 
+the last pull.
