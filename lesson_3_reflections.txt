@@ -27,3 +27,15 @@ What is the benefit of having a copy of the last known state of the remote store
 Having a copy of the last known state locally allows the remote to proceed without having
 to merge these changes.  You can see how your changes compare to master as of the time of 
 the last pull.
+
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would
+be harder?
+
+You could have a shared directory on dropbox that contained all of the files.  You could keep
+a list of files that were "checked out" to keep others from editing them at the same time.  This 
+would prevent the need for merging.  When you were ready to "check in", you could copy your directory
+to dropbox and have others review the changes.  You would have to list what the changes were in a file
+somewhere.  This would be possible, but it would be very slow as only one person could work on a file
+at a time.  You could allow simulateneous edits, but then you would manually have to find file changes
+and do possible merging.  What a nightmare!
