@@ -1,3 +1,14 @@
 When would you want to use a remote repository rather than keeping all your work local?
 
 So you can have a copy of your work safely stored and backed up in the cloud.
+
+
+Describe the differences between forks, clones, and branches. When would you use one
+instead of another?
+
+Forks create a copy within github of another repository on github.  The forked repository
+references the original repository and maintains its commit history.  Clones are also copies of 
+repositories, but they have parent/child relationships.  Changes to cloned repositories can be
+pushed into the parent whereas changes to forked repos cannot be pushed into the original repo.
+Branches are new commit streams within a single repository.  They allow work to progress within
+the repo without affecting the master branch.
