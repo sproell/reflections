@@ -39,3 +39,13 @@ to dropbox and have others review the changes.  You would have to list what the 
 somewhere.  This would be possible, but it would be very slow as only one person could work on a file
 at a time.  You could allow simulateneous edits, but then you would manually have to find file changes
 and do possible merging.  What a nightmare!
+
+
+When would you want to make changes in a separate branch rather than directly in master? What
+benefits does each approach have?
+
+I would almost always make changes in a separate branch.  It gives you flexibility to work on
+multiple logical changes at once without having the changes mixed together.  You can react to 
+an urgent bug while working on a new feature more easily.  With branching, you know your master 
+branch is always pristine.  I might directly update master for small typo changes that have essentially
+no chance of causing a bug.
